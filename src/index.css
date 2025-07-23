@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap');
+
+a.active hr {
+  display: block;
+}
+
+* {
+  font-family: "Winky Rough", cursive, serif;
+}
+
+.winky-special {
+  font-family: "Winky Rough", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width:640px)
+{
+  a.active{
+    background-color: palevioletred;
+    color:black;
+  }
+}
